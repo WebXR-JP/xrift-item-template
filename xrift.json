@@ -1,0 +1,7 @@
+{
+  "item": {
+    "distDir": "./dist",
+    "title": "Sample Item",
+    "description": "A sample item created with XRift item template"
+  }
+}
