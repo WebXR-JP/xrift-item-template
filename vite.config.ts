@@ -35,9 +35,8 @@ export default defineConfig({
           singleton: true,
           requiredVersion: '^0.176.0',
         },
-        'three/addons': {
+        'three/addons/loaders/DRACOLoader.js': {
           singleton: true,
-          requiredVersion: '^0.176.0',
         },
         '@react-three/fiber': {
           singleton: true,
@@ -50,6 +49,14 @@ export default defineConfig({
         '@react-three/drei': {
           singleton: true,
           requiredVersion: '^10.7.3',
+        },
+        '@react-three/uikit': {
+          singleton: true,
+          requiredVersion: '^1.0.0',
+        },
+        '@xrift/world-components': {
+          singleton: true,
+          requiredVersion: '^0.1.0',
         },
       },
     }),
