@@ -3,12 +3,7 @@ import { useFrame } from '@react-three/fiber'
 import { RigidBody } from '@react-three/rapier'
 import { Mesh, Group } from 'three'
 
-export interface ItemProps {
-  position?: [number, number, number]
-  scale?: number
-}
-
-export const Item: React.FC<ItemProps> = ({ position = [0, 0, 0], scale = 1 }) => {
+export const Item = () => {
   const groupRef = useRef<Group>(null)
   const crystalRef = useRef<Mesh>(null)
 
@@ -20,7 +15,7 @@ export const Item: React.FC<ItemProps> = ({ position = [0, 0, 0], scale = 1 }) =
   })
 
   return (
-    <group ref={groupRef} position={position} scale={scale}>
+    <group ref={groupRef}>
       {/* 台座 */}
       <RigidBody type="fixed" colliders="cuboid">
         <mesh position={[0, 0.15, 0]} castShadow receiveShadow>

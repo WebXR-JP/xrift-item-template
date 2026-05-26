@@ -26,7 +26,7 @@ createRoot(rootElement).render(
             intensity={1}
             castShadow
           />
-          <Item position={[0, 0, 0]} />
+          <Item />
           {/* 地面 */}
           <mesh receiveShadow rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 0]}>
             <planeGeometry args={[10, 10]} />
