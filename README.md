@@ -24,11 +24,14 @@ npm run build
 | `react` | ^19.0.0 |
 | `react-dom` | ^19.0.0 |
 | `react/jsx-runtime` | - |
-| `three` | ^0.176.0 |
-| `three/addons` | ^0.176.0 |
+| `three` | ^0.183.1 |
+| `three/addons` | ^0.183.1 |
 | `@react-three/fiber` | ^9.3.0 |
 | `@react-three/rapier` | ^2.1.0 |
 | `@react-three/drei` | ^10.7.3 |
+| `@react-three/uikit` | ^1.0.0 |
+| `@pmndrs/uikit` | ^1.0.0 |
+| `@xrift/world-components` | ^0.41.0 |
 
 ### `three/addons` について
 
