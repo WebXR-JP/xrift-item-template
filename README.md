@@ -30,6 +30,7 @@ npm run build
 | `@react-three/rapier` | ^2.1.0 |
 | `@react-three/drei` | ^10.7.3 |
 | `@react-three/uikit` | ^1.0.0 |
+| `@pmndrs/uikit` | ^1.0.0 |
 | `@xrift/world-components` | ^0.41.0 |
 
 ### `three/addons` について

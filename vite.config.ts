@@ -20,43 +20,60 @@ export default defineConfig({
         react: {
           singleton: true,
           requiredVersion: '^19.0.0',
+          strictVersion: false,
         },
         'react-dom': {
           singleton: true,
           requiredVersion: '^19.0.0',
+          strictVersion: false,
         },
         'react-dom/client': {
           singleton: true,
+          strictVersion: false,
         },
         'react/jsx-runtime': {
           singleton: true,
+          requiredVersion: '^19.0.0',
+          strictVersion: false,
         },
         three: {
           singleton: true,
           requiredVersion: '^0.183.1',
+          strictVersion: false,
         },
         'three/addons/loaders/DRACOLoader.js': {
           singleton: true,
+          version: '0.0.0',
         },
         '@react-three/fiber': {
           singleton: true,
           requiredVersion: '^9.3.0',
+          strictVersion: false,
         },
         '@react-three/rapier': {
           singleton: true,
           requiredVersion: '^2.1.0',
+          strictVersion: false,
         },
         '@react-three/drei': {
           singleton: true,
           requiredVersion: '^10.7.3',
+          strictVersion: false,
         },
         '@react-three/uikit': {
           singleton: true,
           requiredVersion: '^1.0.0',
+          strictVersion: false,
+        },
+        '@pmndrs/uikit': {
+          singleton: true,
+          requiredVersion: '^1.0.0',
+          strictVersion: false,
         },
         '@xrift/world-components': {
           singleton: true,
           requiredVersion: '^0.41.0',
+          strictVersion: false,
         },
       },
     }),
